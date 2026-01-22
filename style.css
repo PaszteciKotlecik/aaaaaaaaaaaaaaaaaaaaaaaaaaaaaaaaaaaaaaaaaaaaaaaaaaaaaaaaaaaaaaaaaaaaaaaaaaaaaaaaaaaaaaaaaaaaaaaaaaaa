@@ -1,0 +1,18 @@
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 13px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #5988FF; /* Kolor tła strony internetowej */
+    color: #f5e028; /* Kolor tła strony internetowej*/ 
+}
+h2 {
+    color: #2a076d77; /* Kolor nagłówka */
+    font-size: 30px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+    animation: color-change 3s infinite;
+    
+}
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
